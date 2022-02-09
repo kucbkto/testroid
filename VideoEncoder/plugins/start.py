@@ -26,7 +26,7 @@ async def start_message(app, message):
     check = await check_user(message)
     if check is None:
         return
-    text = f"Hey! I'm <a href='https://telegra.ph/file/11379aba315ba245ebc7b.jpg'>VideoEncoder</a>. I can encode telegram files in x264.\n\nPress /help for my commands :)"
+    text = f"Hey! I'm <a href='https://telegra.ph/file/aaebaa957daa2ba6e0f38.jpg'>VideoEncoder</a>. I can encode telegram files in x264.\n\nPress /help for my commands :)"
     await message.reply(text=text, reply_markup=start)
 
 
