@@ -22,15 +22,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from .. import sudo_users
 
 output = InlineKeyboardMarkup([
-    [InlineKeyboardButton("Developer", url="https://github.com/WeebTime/"),
-     InlineKeyboardButton("Source", url="https://github.com/WeebTime/Video-Encoder-Bot")]
+    [InlineKeyboardButton("Developer", url="https://t.me/The_dsr"),
+     InlineKeyboardButton("Yt channel", url="https://www.youtube.com/channel/UCsNkiEm2go3Zyzum7e3PpBg")]
 ])
 
 start = InlineKeyboardMarkup([
-    [InlineKeyboardButton("Developer", url="https://github.com/WeebTime/"),
-     InlineKeyboardButton("Source", url="https://github.com/WeebTime/Video-Encoder-Bot")],
-    [InlineKeyboardButton("Support", url="https://t.me/joinchat/4PQUG5J6aRI3NGQ1"),
-     InlineKeyboardButton("Channel", url="https://t.me/WeebZoneIndia")]
+    [InlineKeyboardButton("Developer", url="https://t.me/The_dsr"),
+     InlineKeyboardButton("Yt channel", url="https://www.youtube.com/channel/UCsNkiEm2go3Zyzum7e3PpBg")],
+    [InlineKeyboardButton("Support", url="https://t.me/Dsrs_Group"),
+     InlineKeyboardButton("Channel", url="https://t.me/kashir_bots")]
 ])
 
 
